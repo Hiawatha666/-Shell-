@@ -1,1 +1,2 @@
 https://www.ibm.com/developerworks/cn/linux/l-cn-shell-debug/index.html
+只要被执行的行都会执行trap 'echo "before execute line:$LINENO, a=$a,b=$b,c=$c"' DEBUG
